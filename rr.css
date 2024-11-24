@@ -1,0 +1,31 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #4B79A1, #283E51);
+    color: #333; /* Text color for readability */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    padding: 20px;
+    margin: 0;
+}
+
+/* Container styling for Terms & Conditions */
+.info {
+    background-color: #fff;
+    max-width: 800px; /* Set a maximum width for readability */
+    width: 100%;
+    padding: 20px;
+    margin: 20px auto; /* Center the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    line-height: 1.8; /* Improve line spacing */
+}
+
+h1, h2 {
+    color: #283E51; /* A dark tone for headings */
+}
+
+p {
+    margin: 10px 0; /* Space between paragraphs */
+}
